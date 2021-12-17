@@ -37,105 +37,104 @@
     <title>Rita's Work</title>
   </head>
   <body>
-    <div class="container">
+    <div class="solo_nav">
       <nav class="d-flex justify-content-between">
         <img
           src="images/logo2_.png"
           class="logo d-none d-md-block"
           alt="shecodes logo"
         />
-        <img
-          src="images/logo_small.png"
-          class="logo-small d-block d-md-none"
-          alt="shecodes logo"
-        />
         <ul>
           <li>
-            <a href="/" title="Homepage"> Home</a>
+            <a href="/"> Home</a>
           </li>
           <li>
-            <a href="/about.html" title="About Rita">About</a>
+            <a href="/about.html">About</a>
           </li>
-          <li class="active">
-            <a href="/work.html" title="Rita's work"> Work </a>
-          </li>
-          <li><a href="/contact.html" title="Contact Rita"> Contact</a></li>
+          <li class="active"><a href="/work.html"> Work </a></li>
+          <li><a href="/contact.html"> Contact</a></li>
         </ul>
       </nav>
     </div>
-    <div class="content-container container">
-      <div class="content">
-        <h1 class="mb-5">Take a look at what I've been working on!</h1>
-        <div class="row">
-          <div class="col-md-6 mb-5">
-            <img
-              src="images/yogurt.png"
-              alt="Yogurt project screenshot"
-              class="image-fluid mb-3"
-            />
-            <h3 class="text-center m-0">Yogurt Project</h3>
-            <p class="text-center text-muted">Built with HTML and CSS</p>
-          </div>
-          <div class="col-md-6 mb-5">
+    <div class="container work">
+      <h1 class="mb-5">My work</h1>
+        <div class="row mb-5">
+          <div class="col d-none d-lg-block">
             <img
               src="images/weather.png"
-              alt="Weather project screenshot"
-              class="image-fluid mb-3"
+              alt="weather app screenshot"
+              class="image-fluid"
             />
-            <h3 class="text-center m-0">Weather App</h3>
-            <p class="text-center text-muted">Built with HTML, CSS and React</p>
+          </div>
+          <div class="col mt-3 mb-5">
+            <div class="project-description">
+              <h2 class="mb-5">Weather App</h2>
+              <p class="mb-5 text-muted">
+                This is my most recent work. It's a weather app build with HTML
+                5, CSS and JavaScript and integrated with an API so the data is
+                accurate and updated.
+              </p>
+              <div class="social-links d-flex mt-3">
+                    <a
+                href="https://github.com/RitaCavalheiro/the_weather_app"
+                target="_blank"
+                title="Weather repository"
+                ><i class="fab fa-github"></i
+                ></a>
+                <a
+                href="https://app.netlify.com/sites/pensive-ritchie-57568b/overview"
+                target="_blank"
+                title="Weather app"
+                ><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 mb-5">
-            <img
-              src="images/dictionary.png"
-              alt="Dictionary project screenshot"
-              class="image-fluid mb-3"
-            />
-            <h3 class="text-center m-0">Dictionary</h3>
-            <p class="text-center text-muted">Built with HTML and CSS</p>
+        <div class="row mt-5 mb-5">
+          <div class="col mt-3">
+            <div class="project-description">
+              <h2 class="mb-5">Ballet Project</h2>
+              <p class="mb-5 text-muted">
+                This was my first project for SheCodes, building a simple landing page using
+                HTML 5, CSS and a sprinkle of JavaScript, about something we were
+                passionate about, I chose ballet.
+              </p>
+              <div class="social-links d-flex mt-3">
+                    <a
+                href="https://github.com/RitaCavalheiro/ballet-page"
+                target="_blank"
+                title="Ballet repository"
+                ><i class="fab fa-github"></i
+                ></a>
+                <a
+                href="https://determined-dubinsky-7aeb98.netlify.app/"
+                target="_blank"
+                title="Ballet project"
+                ><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6 mb-5">
+          <div class="col d-none d-md-block">
             <img
-              src="images/transulator.png"
-              alt="Transulator project screenshot"
-              class="image-fluid mb-3"
+              src="images/ballet.png"
+              alt="ballet project screenshot"
+              class="image-fluid"
             />
-            <h3 class="text-center m-0">Transulator</h3>
-            <p class="text-center text-muted">Built with HTML, CSS and React</p>
           </div>
         </div>
       </div>
     </div>
     <footer class="container">
-      <div
-        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
-      >
-        <div>
-          <h3>Work Inquiry</h3>
-          <p class="text-muted">Let's work together</p>
-        </div>
-        <div>
-          <a
-            href="/contact.html"
-            class="btn btn-branding mt-3"
-            title="Contact Rita"
-            >Contact me</a
-          >
-        </div>
-      </div>
-      <div class="d-flex justify-content-center">
-        <a href="mailto:ritacodes@gmail.com" class="email-link"
-          >ritacodes@gmail.com</a
-        >
+      <div class="text-center">
+        <h3>👋 Let's connect</h3>
+        <p>For business enquires</p>
       </div>
       <div class="social-links d-flex justify-content-center mt-3">
         <a
-          href="https://www.instagram.com/ritacavalheiro/"
+          href="mailto:ritascavalheiro@gmail.com"
           target="_blank"
-          title="Rita's Instagram"
-          ><i class="fab fa-instagram"></i
+          title="Rita's Email"
+          ><i class="far fa-envelope"></i
         ></a>
         <a
           href="https://github.com/RitaCavalheiro"
@@ -151,15 +150,16 @@
         ></a>
       </div>
       <p class="text-center mt-5">
-        This page was Coded by Rita ans it is
+        👩‍💻
         <a
           href="https://github.com/RitaCavalheiro/Homepage-reproduction"
           target="_blank"
-          title="Webpage repository"
           class="reposirory_link"
+          title="Webpage repository"
         >
-          opensourse
+          Open-source
         </a>
+        code by Rita Cavalheiro
       </p>
     </footer>
   </body>
