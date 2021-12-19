@@ -224,6 +224,38 @@ main {
   text-align: left;
 }
 
+.work-description p {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 30px;
+}
+.work-icon {
+  margin: 5px;
+}
+
+.work-links a {
+  margin: 5px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+.work-links a:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.carousel-inner {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  border-radius: 25px;
+  background: black;
+}
+
 .social-links a {
   margin: 15px 20px;
   color: var(--secondary-color);
@@ -240,7 +272,7 @@ main {
 }
 
 footer {
-  margin: 150px 0;
+  margin-top: 150px;
 }
 
 footer .reposirory_link {
