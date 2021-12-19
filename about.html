@@ -20,16 +20,9 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Merriweather:wght@400;700&family=Rubik:wght@300;400&family=Stardos+Stencil:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
     <meta
       name="description"
       content="Learn more about this portuguese girl and how she became a front-end developer"
@@ -39,11 +32,13 @@
   <body>
     <div class="about">
       <nav class="d-flex justify-content-between">
-        <img
-          src="images/logo2_.png"
-          class="logo d-none d-md-block"
-          alt="shecodes logo"
-        />
+        <a href="/" title="Homepage" class="d-none d-md-block">
+          <img
+            src="images/logo_.png"
+            class="logo"
+            alt="Rita Cavalheiro's logo"
+          />
+        </a>
         <ul>
           <li>
             <a href="/"> Home</a>
@@ -62,7 +57,7 @@
             <img
               src="images/about.jpg"
               alt="headshot of Rita"
-              class="avatar"
+              class="avatar d-none d-lg-block"
             />
           </div>
           <div class="col-lg-1"></div>
@@ -172,7 +167,7 @@
           </div>
       </div>
     </div>
-    <div class="details container mb-5">
+    <div class="details container mb-5 d-none d-md-block">
       <h2>Certificates</h2>
       <div class="row d-flex
           justify-content-md-center
@@ -196,7 +191,7 @@
     </div>
     <footer class="container">
       <div class="text-center">
-        <h3>👋 Let's connect</h3>
+        <h3>Get in touch</h3>
         <p>For business enquires</p>
       </div>
       <div class="social-links d-flex justify-content-center mt-3">

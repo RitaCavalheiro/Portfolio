@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #6767ab;
+  --primary-color: #7d85d0;
   --secondary-color: #edf1ff;
   --terciary-color: #42424a;
-  --heading-font: "Merriweather", serif;
+  --heading-font: "BioRhyme", serif;
   --body-font: "Rubik", sans-serif;
 }
 
@@ -14,7 +14,7 @@ body {
 
 h1 {
   color: var(--primary-color);
-  font-family: "Stardos Stencil", cursive;
+  font-family: var(--heading-font);
   font-weight: 700;
   font-size: 70px;
 }
@@ -284,7 +284,7 @@ main {
 }
 
 .contact-links {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .contact-links a {
@@ -334,23 +334,58 @@ footer .reposirory_link:hover {
     font-size: 44px;
     line-height: 2;
   }
+
   h2 {
-    font-size: 44px;
+    font-size: 26px;
   }
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-  .hero {
-    padding: 20px 40px;
-  }
-  .content {
-    text-align: center;
-    padding: 0;
+  nav {
+    padding-bottom: 30px;
   }
 
   nav a {
     font-size: 14px;
     margin: 5px;
+  }
+  .solo_nav {
+    padding: 0;
+  }
+
+  .hero,
+  .about,
+  .work {
+    padding: 20px 40px;
+  }
+
+  .hero h2 {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 26px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .content p {
+    text-align: left;
+    padding: 0;
+    margin: 10px;
+  }
+
+  .work-description {
+    margin: 5px;
+  }
+
+  .content h3 {
+    font-size: 16px;
+  }
+
+  .email-border {
+    padding: 5px 15px 5px 15px;
   }
 }
