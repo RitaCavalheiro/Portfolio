@@ -173,7 +173,7 @@ main {
 }
 
 .content h2 {
-  font-size: 18px;
+  font-size: 30px;
   font-family: var(--body-font);
 }
 
@@ -254,6 +254,52 @@ main {
   margin: auto;
   border-radius: 25px;
   background: black;
+}
+
+.email-button {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.email-border {
+  border: 1px solid var(--primary-color);
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.btn-contact {
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+
+  background: var(--primary-color);
+}
+
+.btn-contact a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.contact-links {
+  margin-top: 100px;
+}
+
+.contact-links a {
+  margin: 30px 40px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+.contact-links a:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .social-links a {
