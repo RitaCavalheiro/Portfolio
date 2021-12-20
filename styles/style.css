@@ -253,7 +253,6 @@ main {
   position: relative;
   margin: auto;
   border-radius: 25px;
-  background: black;
 }
 
 .email-button {
@@ -346,6 +345,15 @@ footer .reposirory_link:hover {
     font-size: 14px;
     margin: 5px;
   }
+
+  main {
+    margin: 100px 0;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
   .solo_nav {
     padding: 0;
   }
@@ -369,12 +377,17 @@ footer .reposirory_link:hover {
   .content {
     text-align: center;
     padding: 0;
+    margin: 0;
   }
 
   .content p {
     text-align: left;
     padding: 0;
-    margin: 10px;
+    margin: 0;
+  }
+
+  .content-container h1 {
+    margin-bottom: 0;
   }
 
   .work-description {
