@@ -19,6 +19,7 @@
       src="https://kit.fontawesome.com/df29ae10b6.js"
       crossorigin="anonymous"
     ></script>
+   
     <link rel="stylesheet" href="styles/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,14 +34,17 @@
   <body>
     <div class="hero">
       <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage" class="d-none d-md-block">
+        <a href="/" title="Homepage">
           <img
             src="images/logo_.png"
             class="logo"
             alt="Rita Cavalheiro's logo"
           />
         </a>
-        <ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-ul" id="nav-ul">
           <li class="active">
             <a href="/" title="Homepage">Home</a>
           </li>
@@ -50,6 +54,7 @@
           <li><a href="/work.html" title="Rita's work"> Work </a></li>
           <li><a href="/contact.html" title="Contact Rita"> Contact</a></li>
         </ul>
+      
       </nav>
       <p class="intro">Welcome, I am</p>
       <h1>Rita Cavalheiro</h1>
@@ -120,4 +125,5 @@
       </footer>
     </div>
   </body>
+  <script src="./app.js"> </script>
 </html>

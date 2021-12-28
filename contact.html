@@ -32,14 +32,17 @@
   <body>
     <div class="solo_nav">
       <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage" class="d-none d-md-block">
+        <a href="/" title="Homepage">
           <img
             src="images/logo_.png"
             class="logo"
             alt="Rita Cavalheiro's logo"
           />
         </a>
-        <ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-ul" id="nav-ul">
           <li>
             <a href="/" title="Homepage"> Home</a>
           </li>
@@ -59,7 +62,7 @@
         <h2 class="mb-5">
           Feel free to contact me through the e-mail bellow for work inquires
         </h2>
-        <div class="email-button d-flex align-content-center">
+        <div class="email-button d-flex justify-content-center">
           <h3 class="col-md-6 email-border">
             <i class="fas fa-envelope" aria-hidden="true"></i>
             ritascavalheiro@gmail.com
@@ -99,4 +102,5 @@
       </p>
     </footer>
   </body>
+  <script src="./app.js"></script>
 </html>
