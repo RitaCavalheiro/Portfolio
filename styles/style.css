@@ -422,8 +422,12 @@ footer .reposirory_link:hover {
     margin-bottom: 0;
   }
 
-  .work-description {
-    margin: 5px;
+  .work-description-right {
+    margin-right: 5px;
+  }
+
+.work-description-left {
+    margin-left: 5px;
   }
 
   .content h3 {
