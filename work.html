@@ -25,14 +25,13 @@
     <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
     <meta
       name="description"
-      content="See some of Rita's work as a front-end developer"
+      content="See some of Rita's work as a developer"
     />
     <title>Rita's Work</title>
     <link rel="shortcut icon" type="image/jpg" href="images/small_logo.png"/>
   </head>
   <body>
-    <div class="solo_nav">
-      <nav class="d-flex justify-content-between">
+    <nav class="d-flex justify-content-between">
        <a href="/" title="Homepage">
           <img
             src="images/logo_.png"
@@ -45,18 +44,125 @@
         </button>
         <ul class="nav-ul" id="nav-ul">
           <li>
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Rita">About</a>
           </li>
-          <li class="active"><a href="/work.html"> Work </a></li>
-          <li><a href="/contact.html"> Contact</a></li>
+          <li class="active"><a href="/work.html" title="Contact Rita"> Projects </a></li>
+          <li><a href="/contact.html" title="Contact Rita"> Contact</a></li>
         </ul>
       </nav>
-    </div>
     <div class="container work">
       <h1 class="mb-5">My work</h1>
+
+        <div class="row mb-5">
+          <div class="col mt-5 d-none d-lg-block">
+            <div id="carouselWeather" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="/images/bookings_1.png" class="d-block w-100" alt="weather app search feature">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="/images/bookings_2.png" class="d-block w-100" alt="weather app current location feature">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="/images/bookings_3.png" class="d-block w-100" alt="weather app current location alert">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col mt-3 mb-5">
+            <div class="work-description ms-md-5">
+              <h3 class="mb-3">Bookings</h3>
+              <p class="mb-3 text-muted">
+                Application built with OutSystems to do bookings of rooms in a Hotel.
+                Only the manage can see and edit the details of the rooms, it's possible to add or exclude amenities from them.
+                Any registerd user can create a new or edit a booking.
+                On the homepage it's possible to see the rooms that are getting check-in and check-out that day, with the use of a block, a chart with the occupancy 
+                of the hotel as well as add room service to a room.
+                The data manipulation in this project is done by using aggregates and their properties as well as SQL nodes.
+              </p>
+              <p class="work-icons">
+                  <span><i class="fa-solid fa-o work-icon"  data-bs-toggle="tooltip" data-bs-placement="top" title="OutSystems" aria-hidden="true"></i></span>
+                  <i class="fa-solid fa-diagram-project work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Relatinal Database" aria-hidden="true"></i>
+                  <i class="fa-solid fa-puzzle-piece work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Block" aria-hidden="true"></i>
+                  <i class="fa-solid fa-table-cells work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Aggregates" aria-hidden="true"></i>
+                  <i class="fa-solid fa-database work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="SQL" aria-hidden="true"></i>
+              </p>
+              <div class="work-links d-flex mt-3">
+                <a
+                href="https://personal-xpf0ndt4.outsystemscloud.com/Bookings_RC2"
+                target="_blank"
+                title="Bookings"
+                ><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col mt-3 mb-5">
+            <div class="work-description me-md-5">
+              <h3 class="mb-3">SchoolUp</h3>
+              <p class="mb-3 text-muted">
+                Application built in OutSystems to manage a School facility.
+                It's possible to list all classes, create new and edit the information of existing ones. Students can be enrolled in classes and have grades, each class has a teacher. 
+                A student can have a mentor, with the condition of this one being older than him.
+                All data manipulation in this project is done by using aggregates and their properties.
+                The homepage displays the Events of the school and the current holidays if they exist, otherwise a frowny face will appear, built with a block.
+              </p>
+              <p class="work-icons">
+                  <i class="fa-solid fa-o work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="OutSystems" aria-hidden="true"></i>
+                  <i class="fa-solid fa-diagram-project work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Relatinal Database" aria-hidden="true"></i>
+                  <i class="fa-solid fa-puzzle-piece work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Block" aria-hidden="true"></i>
+                  <i class="fa-solid fa-table-cells work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Aggregates" aria-hidden="true"></i>
+              </p>
+              <div class="work-links d-flex mt-3">
+                <a
+                href="https://personal-xpf0ndt4.outsystemscloud.com/SchoolUp_RC2"
+                target="_blank"
+                title="SchoolUp"
+                ><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-5 d-none d-lg-block">
+              <div id="carouselWeather" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="/images/school_1.png" class="d-block w-100" alt="weather app search feature">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/images/school_2.png" class="d-block w-100" alt="weather app current location feature">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/images/school_3.png" class="d-block w-100" alt="weather app current location alert">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/images/school_4.png" class="d-block w-100" alt="weather app current location alert">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
         <div class="row mb-5">
           <div class="col mt-3 d-none d-lg-block">
             <div id="carouselWeather" class="carousel slide" data-bs-ride="carousel">
@@ -88,12 +194,11 @@
                 A dictionary app that allows you to search any word in the English language. It does not only provide the meaning and phonetics of a word (in audio and writting), but it also shows images related to the search. For this end result, two different API's were used: the Google Dictitionary API and Pexels API. To make the app a bit more fun and interactive, I built a 3D owl that moves along with the cursor, using Spline.
               </p>
               <p class="work-icons">
-                  <i class="fab fa-invision work-icon" aria-hidden="true"></i> 
-                  <i class="fas fa-code work-icon" aria-hidden="true"></i>
-                  <i class="fa-brands fa-react"></i>
-                  <i class="fab fa-github work-icon" aria-hidden="true"></i>
-                   <i class="fa fa-cog work-icon" aria-hidden="true"></i>
-               
+                  <i class="fab fa-invision work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="invision" aria-hidden="true"></i> 
+                  <i class="fas fa-code work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="VS Code" aria-hidden="true"></i>
+                  <i class="fa-brands fa-react" data-bs-toggle="tooltip" data-bs-placement="top" title="React" aria-hidden="true"></i>
+                  <i class="fab fa-github work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub" aria-hidden="true"></i>
+                   <i class="fa fa-cog work-icon"  data-bs-toggle="tooltip" data-bs-placement="top" title="API Integration" aria-hidden="true"></i>
               </p>
               <div class="work-links d-flex mt-3">
                     <a
@@ -111,22 +216,22 @@
             </div>
           </div>
         </div>
+
         <div class="row mb-5">
           <div class="col mt-3 mb-5">
-            <div class="work-description ms-md-0">
+            <div class="work-description me-md-5">
               <h3 class="mb-3">Ducky Duck Weather App</h3>
               <p class="mb-3 text-muted">
                 A real-time weather web app built from scratch. The connection to the Openweather API allows for the app to show the current weather at your current location and to search for the forecast of any city in the world. To create a more interesting interface, I designed Ducky Duck in various weather conditions. Using JavaScript combined with CSS, you can see the colors and the character's mood change according to the weather conditions.
               </p>
               <p class="work-icons">
-                  <i class="fab fa-invision work-icon" aria-hidden="true"></i> 
-                  <i class="fas fa-code work-icon" aria-hidden="true"></i>
-                  <i class="fab fa-html5 work-icon" aria-hidden="true"></i>
-                   <i class="fab fa-css3-alt work-icon" aria-hidden="true"></i>
-                   <i class="fab fa-js-square work-icon" aria-hidden="true"></i> 
-                  <i class="fab fa-github work-icon" aria-hidden="true"></i>
-                   <i class="fa fa-cog work-icon" aria-hidden="true"></i>
-               
+                  <i class="fab fa-invision work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="In Vision" aria-hidden="true"></i> 
+                  <i class="fas fa-code work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="VS Code" aria-hidden="true"></i>
+                  <i class="fab fa-html5 work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" aria-hidden="true"></i>
+                   <i class="fab fa-css3-alt work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3" aria-hidden="true"></i>
+                   <i class="fab fa-js-square work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="JavaScript" aria-hidden="true"></i> 
+                  <i class="fab fa-github work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub" aria-hidden="true"></i>
+                   <i class="fa fa-cog work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="API Integration" aria-hidden="true"></i>
               </p>
               <div class="work-links d-flex mt-3">
                     <a
@@ -195,17 +300,17 @@
           </div>
 
           <div class="col mt-3">
-            <div class="work-description me-md-5">
+            <div class="work-description ms-md-5">
               <h3 class="mb-5">Ballet Project</h3>
               <p class="mb-5 text-muted">
                 This was my first project for SheCodes. The assignment was to build a simple landing page (using HTML 5, CSS and a sprinkle of JavaScript) about something we were passionate about. I chose ballet. In this page you can simulate booking a class. When clicking the button, you will be asked to input some required information. One this is complete, the app will provide the information you need.
               </p>
               <p class="work-icons">
-                  <i class="fab fa-invision work-icon" aria-hidden="true"></i> 
-                  <i class="fas fa-code work-icon" aria-hidden="true"></i>
-                  <i class="fab fa-html5 work-icon" aria-hidden="true"></i>
-                   <i class="fab fa-css3-alt work-icon" aria-hidden="true"></i>
-                   <i class="fab fa-js-square work-icon" aria-hidden="true"></i>   
+                  <i class="fab fa-invision work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="In Vision" aria-hidden="true"></i> 
+                  <i class="fas fa-code work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="VS Code" aria-hidden="true"></i>
+                  <i class="fab fa-html5 work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" aria-hidden="true"></i>
+                   <i class="fab fa-css3-alt work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3" aria-hidden="true"></i>
+                   <i class="fab fa-js-square work-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="JavaScript" aria-hidden="true"></i>   
               </p>
               <div class="work-links d-flex mt-3">
                     <a
