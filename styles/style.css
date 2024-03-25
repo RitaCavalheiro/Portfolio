@@ -360,7 +360,7 @@ footer .reposirory_link:hover {
   }
 
   nav {
-    padding-bottom: 30px;
+    padding: 10px;
   }
 
   nav a {
@@ -398,7 +398,8 @@ footer .reposirory_link:hover {
   .hero,
   .about,
   .work {
-    padding: 20px 40px;
+    padding: 40px;
+    margin-top: 75px;
   }
 
   .hero h2 {
